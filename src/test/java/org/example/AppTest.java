@@ -10,7 +10,7 @@ public class AppTest {
     /**
      * Rigorous Test :-)
      */
-    @Test
+    @Test(description = "diyige",testName = "第一个name")
     public void shouldAnswerWithTrue(){
         System.out.println("你好");
     }
