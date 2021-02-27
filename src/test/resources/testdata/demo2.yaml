@@ -1,0 +1,7 @@
+- !!org.example.entity.DemoPo
+  name: n1
+  age: 1
+  infoData:
+    user:
+      !!org.example.entity.UserPo
+      addr: $common.getStr()
